@@ -5,6 +5,8 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="320.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc311_gui_basics.HelloController">
    <children>
@@ -12,5 +14,7 @@
       <Button fx:id="btn1" layoutX="50.0" layoutY="45.0" mnemonicParsing="false" onAction="#goku" text="enter &quot;goku&quot;" />
       <ImageView fx:id="iv1" fitHeight="100.0" fitWidth="200.0" layoutX="17.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" />
       <PasswordField fx:id="pf1" layoutX="17.0" layoutY="88.0" />
+      <Circle fill="DODGERBLUE" layoutX="272.0" layoutY="45.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="37.0" endY="137.013427734375" layoutX="198.0" layoutY="58.0" startX="-2.0" startY="-3.0" />
    </children>
 </AnchorPane>
