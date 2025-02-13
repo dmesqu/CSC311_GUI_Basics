@@ -1,0 +1,6 @@
+.custom-label {
+    -fx-font-size: 20px;
+    -fx-text-fill:#4287f5;
+    -fx-font-weight: bold;
+    -fx-rotate: 72;
+}
